@@ -1,0 +1,22 @@
+formatter: markdown
+version: ""
+
+header-from: main.tf
+footer-from: ""
+
+recursive:
+  enabled: false
+  path: .
+
+sections:
+  hide: []
+  show: []
+
+content: |-
+  {{ .Header }}
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}
+  
+  Disclaimer: this code is auto-generated with [tf-docs](https://terraform-docs.io) by macros
