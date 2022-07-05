@@ -18,6 +18,10 @@ module "cluster_autoscaler" {
 
 For full example, see [./examples](./examples).
 
+## Versions
+
+* v1.0 = chart v9.19.1 = ca 1.23.0
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
