@@ -9,7 +9,7 @@
 * ```
 * # Usage example:
 * module "cluster_autoscaler" {
-*   source            = "git@github.com:ncs-io/terraform-helm-cluster-autoscaler.git?ref=v1.0"
+*   source            = "git@github.com:ncs-io/terraform-helm-cluster-autoscaler.git?ref=v1.1"
 *   cluster_name      = "MY_CLUSTER_NAME"
 *   namespace         = "kube-system"
 *   serviceaccount    = var.serviceaccount_name
@@ -21,7 +21,7 @@
 *
 * ## Versions
 * 
-* * v1.0 = chart v9.19.1 = ca 1.23.0
+* * v1.1 = chart v9.19.1 = ca 1.23.0
 */
 
 locals {
